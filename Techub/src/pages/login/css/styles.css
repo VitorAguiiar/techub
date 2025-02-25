@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    
+
+}
+.logo img{
+    width: 49px;
+    height: 49px;
+}
+.logo h1{
+    display: inline;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+main form{
+    align-items: center;
+    display: flex;
+    
+
+}
