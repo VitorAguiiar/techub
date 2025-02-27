@@ -1,29 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+@import url(global.css);
+
+body{
+   background: linear-gradient(to bottom, #d50000, #7a0000);
+   padding: 0px;
+   margin: 0px;
+   background-attachment: fixed;
+
 }
 header{
+    padding: 10px 20px;
     display: flex;
-    align-items: center; 
-    gap: 10px;
+    align-items: center;
+    padding-bottom: 30px;
     
-
 }
-.logo img{
-    width: 49px;
+.logo{
+    width: 146px;
     height: 49px;
 }
-.logo h1{
-    display: inline;
-    justify-content: center;
-    margin: 30px;
+.logo img{
+    width: 30px; 
+    height: 30px;
+    margin-right: 2px;
     
 }
-
-main form{
-    align-items: center;
+.titulo{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    position: relative; 
+    top: -7px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+main {
+    display: flex; 
+    justify-content: center; 
+}
+form{
+    background-color: white;
     display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 60px;
+    border-radius: 22px;
+    width: 350px;
     
+    
+}
+.login h1 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 
+}
+.login p {
+    margin-bottom: 12px;
+    margin-left: 9px;
+    padding: 0px;
+    border: 0px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+}
+.login input{
+    margin-bottom: 40px;
+    width: 350px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #D2D2D2;
+}
+
+.login button{
+    width: 116px;
+    height: 41px;
+    margin-left: 265px;
+    border-radius: 20px;
+    background-color: #D83933;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border-color: #D83933;
 }
