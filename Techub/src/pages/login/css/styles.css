@@ -1,7 +1,7 @@
-@import url(global.css);
+@import url(../../../style/global.css);
 
 body{
-   background: linear-gradient(to bottom, #d50000, #7a0000);
+   background: linear-gradient(to bottom, var(--primary-color), var(--secundary-color), var(--third-color));
    padding: 0px;
    margin: 0px;
    background-attachment: fixed;
@@ -14,10 +14,6 @@ header{
     padding-bottom: 30px;
     
 }
-.logo{
-    width: 146px;
-    height: 49px;
-}
 .logo img{
     width: 30px; 
     height: 30px;
@@ -26,7 +22,7 @@ header{
 }
 .titulo{
     display: inline;
-    color: white;
+    color: var(--fourth-color);
     font-size: 25px;
     position: relative; 
     top: -7px;
@@ -38,15 +34,12 @@ main {
     justify-content: center; 
 }
 form{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    padding-bottom: 60px;
-    border-radius: 22px;
+    background-color: var(--fourth-color);;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
     width: 350px;
-    
-    
 }
 .login h1 {
     text-align: center;
@@ -54,6 +47,7 @@ form{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    margin-bottom: 41px;
 
 }
 .login p {
@@ -70,17 +64,23 @@ form{
     margin-bottom: 40px;
     width: 350px;
     height: 35px;
-    border-radius: 15px;
-    border-color: #D2D2D2;
+    margin-left: 15px;
+    border-color: var(--sixth-color);
 }
 
 .login button{
     width: 116px;
     height: 41px;
-    margin-left: 265px;
+    margin-left: 245px;
     border-radius: 20px;
-    background-color: #D83933;
+    background-color: var(--primary-color);
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    border-color: #D83933;
+    border-color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login button:hover {
+    background-color: var(--secundary-color);
+    
 }

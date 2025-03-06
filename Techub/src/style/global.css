@@ -5,7 +5,10 @@
     padding: 0;
 }
 :root {
-    --primary-red: #d50000; 
-    --dark-red: #7a0000;     
-    --primary-color: #ffffff;
+    --primary-color: #D83933; 
+    --secundary-color: #950C11;     
+    --third-color:  #7a0000;
+    --fourth-color: #F1F1F1;
+    --sixth-color: #FFFFFF;
 }
+
