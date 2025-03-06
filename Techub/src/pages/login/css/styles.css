@@ -68,7 +68,7 @@ form{
     border-color: var(--sixth-color);
 }
 
-.login button{
+.login #entrar{
     width: 116px;
     height: 41px;
     margin-left: 245px;
@@ -83,4 +83,8 @@ form{
 .login button:hover {
     background-color: var(--secundary-color);
     
+}
+.login #criar{
+    margin-right: 80px;
+ 
 }
