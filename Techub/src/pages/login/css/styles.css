@@ -39,7 +39,7 @@ form{
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 350px;
+    width: 400px;
 }
 .login h1 {
     text-align: center;
@@ -52,7 +52,7 @@ form{
 }
 .login p {
     margin-bottom: 12px;
-    margin-left: 9px;
+    margin-left: 40px;
     padding: 0px;
     border: 0px;
     text-align: left;
@@ -63,11 +63,16 @@ form{
 .login input{
     margin-bottom: 40px;
     width: 350px;
-    height: 35px;
+    height: 45px;
     margin-left: 15px;
+    margin-right: 15px;
     border-color: var(--sixth-color);
+    border-radius: 20px;
+    
 }
-
+input:focus {
+    border-color: var(--fourth-color);
+}
 .login #entrar{
     width: 116px;
     height: 41px;
@@ -84,7 +89,8 @@ form{
     background-color: var(--secundary-color);
     
 }
-.login #criar{
-    margin-right: 80px;
- 
+.criar-conta{
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 150px;
 }
