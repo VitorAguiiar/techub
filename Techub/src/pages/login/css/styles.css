@@ -21,8 +21,8 @@ main{
 main img{   
     height: 30px;
     width: 30px;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
     display: inline;
 }
 .container{
@@ -32,21 +32,23 @@ main img{
     font-family: "Inter", sans-serif;
     position: absolute;
     display: inline;
-    top: 20px;
+    top: 29px;
     font-size: 25px;
     padding-left: 10px;
 }
 .informacoes{
     font-family: "Inter", sans-serif;
     font-size: 10px;
+    position: relative;
 }
 .informacoes h1{
-    text-align: center;
+    padding-left: 30px;
+    font-size: 18px;
 }
 .informacoes p{
     padding-bottom: 8px;
     padding-top: 24px;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 30px;
 }
 .informacoes input{
@@ -56,13 +58,60 @@ main img{
     height: 30px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    padding-left: 5px;
-
+    padding-left: 16px;
+    position: relative;
 }
-.olho{
+.olho {
+    position: absolute;
+    right: 40px; 
+    top: 80%;
+    transform: translateY(-50%);
     background-image: url(../../../assets/imagem/svg/Input-Icons.svg);
     background-repeat: no-repeat;
-    background-position: left center;
-    width: 20px;
-    height: 20px;
+    background-position: center;
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+}
+.esqueceu-senha{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 60%;
+    padding-bottom: 5px;
+    font-family: "Inter", sans-serif;
+}
+.botao button{
+    background-color: var(--primary-color);
+    color: var(--sixth-color);
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-color: var(--Seventh-color);
+    transition: 0.3s;
+}
+.botao button:hover{
+    background-color: var(--secundary-color);
+    color: var(--sixth-color);
+}
+.linha {
+    margin-top: 30px;
+    border-top: 0.5px solid #6C6464;
+    width: 245px;
+    margin-left: 10%;
+}
+.criar-conta{
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
