@@ -1,14 +1,41 @@
 @import url(../../../style/global.css);
 
 body{
-   background: linear-gradient(to bottom, var(--primary-color), var(--secundary-color), var(--third-color));
    padding: 0px;
    margin: 0px;
    height: 100vh;
-   background-image: url(../../../assets/imagem/png/illustration.png);
+   background-image: url(../../../assets/imagem/png/waves.png);
    background-size: cover;
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; 
+      
+}
+.ondas{
+   position: absolute;
+   right: 50%; 
+   bottom: 45%;
+   color: var(--sixth-color);
+   width: 600px; 
+}
+.ondas h1{
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin-left: 27px;
+}
+.ondas h2{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin-left: 27px;
+}
+.ondas p{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin-left: 27px;
+    width: 564px;
+
 }
 main{
     justify-content: center;
@@ -114,4 +141,10 @@ main img{
     display: flex;
     justify-content: center;
     gap: 5px;
+}
+@media (max-width: 768px) {
+body{
+    width: 100%;
+    height: 100vh
+}
 }
