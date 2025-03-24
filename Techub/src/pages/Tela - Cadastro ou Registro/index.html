@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela De Login - Techub</title>
+    <link rel="stylesheet" href="../Tela - Cadastro ou Registro/css/styles.css">
+</head>
+
+<body>
+    <div class="ondas">
+        <h1>Olá,</h1>
+        <h2>seja bem-vindo(a)!</h2>
+        <p>Precisa de um espaço para suas atividades no SENAI? O TecHub facilita sua vida! Reserve a biblioteca, salas de estudos e outros ambientes de forma rápida e prática. Com poucos cliques, você garante o local ideal para seus estudos, projetos ou eventos.</p>
+    </div>
+
+    <main>
+        <div class="container">
+            <img src="../../assets/imagem/svg/logo-escura.svg" alt="Logo Techub">
+            <h1 class="titulo">Techub</h1>
+        </div>
+        <div class="frase-de-efeito"><h1>Sua história começa aqui.</h1></div>
+        <div class="informacoes">
+            
+            <p>Registro</p>
+            <input type="email" name="Email" placeholder="Email ou número de telefone">
+        </div>
+        <div class="informacoes">
+            <p>Telefone</p>
+            <input type="tel" name="Telefone" placeholder="Ex: 11 98345-6789">
+        </div>
+        <div class="informacoes">
+            <p>Senha</p>
+            <input type="password" name="Senha" placeholder="Senha">
+            <span class="olho" onclick="toggleSenha()"></span>
+        </div>
+        <div class="informacoes">
+            <p>Confirme Sua Senha</p>
+            <input type="password" name="Senha" placeholder="Confirme Sua Senha">
+            <span class="olho" onclick="toggleSenha()"></span>
+        </div>
+
+
+        <label class="genero" for="genero">Informe seu gênero</label>
+        <div class="genero">
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Prefiro não informar</option>
+            </select>
+        </div>
+        
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-label">Lembre-se de mim</span>
+    
+
+        <div class="botao">
+            <button>Entrar</button>
+        </div>
+        </div>
+        <div class="criar-conta">
+            <p>Já tem uma conta?</p><a href="#">Entre aqui</a>
+    </main>
+</body>
+
+</html>
