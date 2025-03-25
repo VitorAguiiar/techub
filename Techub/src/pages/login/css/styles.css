@@ -95,7 +95,7 @@ main img{
 }
 .olho {
     position: absolute;
-    right: 40px; 
+    right: 10px; 
     top: 80%;
     transform: translateY(-50%);
     background-image: url(../../../assets/imagem/svg/Input-Icons.svg);
@@ -198,8 +198,8 @@ vertical-align: middle;
 .linha {
     margin-top: 30px;
     border-top: 0.5px solid #6C6464;
-    width: 100%;
-   
+    width: 80%;
+    margin-left: 40px;
 }
 
 .criar-conta{
@@ -231,6 +231,10 @@ vertical-align: middle;
         width: 200px;
         height: 25px;
     }
+    .olho{
+        right: 40px; 
+        position: absolute;
+    }    
     .linha{
         display: none;
     }
@@ -246,7 +250,6 @@ vertical-align: middle;
         height: 100vh;
        
     }
-
     .ondas {
         width: 80%;
         right: 10%; 
@@ -255,6 +258,24 @@ vertical-align: middle;
     .informacoes input {
         width: 75%; 
         height: 25px; 
+    }
+    .olho{
+        right: 30px; 
+        position: absolute;
+    }
+    .esqueceu-senha {
+        font-size: 7px; 
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -50px;
+    }
+    .switch{
+        left: -5px;
+        margin-bottom: 25px;
+    }
+    .toggle-label{
+        right: 11px;
+        margin-bottom: 25px;
     }
     .botao {
         width: 100%; 
@@ -286,15 +307,29 @@ vertical-align: middle;
         width: 70%; 
         height: 25px; 
     }
-   
+    .olho{
+        right: 30px; 
+        position: absolute;
+    }
     .linha {
         display: none;
     }
-    .esqueceu-senha{
-        padding-left: 13%;
+    .esqueceu-senha {
+        font-size: 7px; 
+        position: absolute;
+        right: 15px;
+        margin-top: -50px;
+    }
+    .switch{
+        left: -5px;
+        margin-bottom: 25px;
+    }
+    .toggle-label{
+        right: 11px;
+        margin-bottom: 25px;
     }
     .botao {
-        width: 100%; 
+        width: 90%; 
     } 
     .botao button {
         width: 200px;
@@ -306,18 +341,33 @@ vertical-align: middle;
     body {
         width: 100%;
         height: 100vh;
-       
-      
     }
     .ondas {
         display: none;
     }
+    .olho{
+        right: 30px; 
+        position: absolute;
+    }
+    .esqueceu-senha {
+        font-size: 7px; 
+        position: absolute;
+        right: 27px;
+        margin-top: -50px;
+    }
+    .switch{
+        left: -5px;
+        margin-bottom: 25px;
+    }
+    .toggle-label{
+        right: 11px;
+        margin-bottom: 25px;
+    }
 
     .criar-conta {
         font-size: 11px; 
-        gap: 8px; /
+        gap: 8px; 
     }
-
     main {
         width: 70%; 
         left: 15%; 
@@ -352,19 +402,32 @@ vertical-align: middle;
         width: 200px; 
         height: 25px; 
     }
-
+    .botao {
+        width: 90%; 
+    } 
     .olho {
-        right: 30px; 
+        right: 10px; 
+        position: absolute;
     }
-
     .esqueceu-senha {
-        font-size: 9px; 
+        font-size: 7px; 
+        position: absolute;
+        right: 20px;
+        margin-top: -50px;
     }
 
     .botao button {
         width: 200px; 
         height: 25px; 
         font-size: 13px; 
+    }
+    .switch{
+        left: -5px;
+        margin-bottom: 25px;
+    }
+    .toggle-label{
+        right: 11px;
+        margin-bottom: 25px;
     }
 
     .linha {
