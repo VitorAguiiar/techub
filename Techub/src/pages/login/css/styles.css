@@ -1,8 +1,6 @@
 @import url(../../../style/global.css);
 
 body{
-   padding: 0px;
-   margin: 0px;
    height: 100vh;
    background-image: url(../../../assets/imagem/png/waves.png);
    background-size: cover;
