@@ -17,7 +17,7 @@ header{
     display: flex;
     
 }
-.header img{
+.header .logo{
     width: 35px;
     height: 35px;
     padding: 12px;
@@ -29,7 +29,7 @@ header{
     width: auto;
     height: 100%;
     display: flex;
-    margin-left: 500px;
+    margin-left: 670px;
 }
 .botao button{
     background-color: var(--seventh-color); 
@@ -42,7 +42,6 @@ header{
     border: 0px solid;
     outline: none; 
     cursor: pointer; 
-    display: inline-block; 
     transition: 0.3s;
 }
 .botao button:hover{
@@ -51,6 +50,56 @@ header{
 }
 .modo-escuro img{
     width: 23px;
-    height: 20px;
+    height: 23px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+.modo-escuro {
+    margin-top: 7px;
+    align-items: center;
+    width: auto;
+    height: 50px;
+}
+
+.modo-escuro img:hover {
+    transform: rotate(360deg);
+    
+}
+
+.modo-escuro img:active {
+    transform: scale(0.95);
+}
+.perfil{
+    width: 120px;
+    height: 60px;
+    display: flex;
+}
+.perfil img{
+    width: 35px;
+    height: 35px;
+}
+
+.perfil button{
+    background-color: var(--seventh-color); 
+    color: black; 
+    font-family: var(--default-font-family); 
+    font-weight: bold; 
+    font-size: 15px; 
+    border: 0px solid;
+    outline: none; 
+    cursor: pointer; 
+    transition: 0.3s;
+}
+.perfil button:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--sixth-color);
+}
+.perfil p{
+    padding-top: 10px;
+    padding-left: 9px;
+}
+.fundo{
+    
+    
+}
