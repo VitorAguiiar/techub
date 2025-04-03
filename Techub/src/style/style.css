@@ -8,7 +8,7 @@ body{
 header{
     width: 100%;
     height: 60px;
-    background-color: var(--seventh-color);
+    background-color: var(--sixth-color);
     font-family: var(--default-font-family);
 }
 .header{
@@ -32,7 +32,7 @@ header{
     margin-left: 670px;
 }
 .botao button{
-    background-color: var(--seventh-color); 
+    background-color: var(--sixth-color);
     color: black; 
     font-family: var(--default-font-family); 
     font-weight: bold; 
@@ -46,7 +46,7 @@ header{
 }
 .botao button:hover{
     text-decoration: underline;
-    text-decoration-color: var(--sixth-color);
+    
 }
 .modo-escuro img{
     width: 23px;
@@ -82,7 +82,6 @@ header{
 
 .perfil button{
     background-color: var(--seventh-color); 
-    color: black; 
     font-family: var(--default-font-family); 
     font-weight: bold; 
     font-size: 15px; 
@@ -99,7 +98,101 @@ header{
     padding-top: 10px;
     padding-left: 9px;
 }
+main{
+    width: 100%;
+    height: 100%;
+    
+}
 .fundo{
+    width: 100%;
+    height: 100%;
+}
+.fundo .ondas{
+    width: 100%;
+  
+}
+.fundo .pessoas{
+    position: absolute;
+    width: 500px;
+    right: 8%;
+    top: 17%;
+}
+.texto{
+    font-family: var(--default-font-family);
+    margin-left: 5%;
+    color: var(--sixth-color);
+}
+.fundo h1{
+    position: absolute;
+    width: 40%;
+    font-size: 40px;
+    top: 35%;
+}
+.fundo p{
+    position: absolute;
+    width: 38%;
+    font-size: 25px;
+    top: 60%;
+}
+.fundo button{
+    font-size: 15px;
+    font-family: var(--default-font-family); 
+    font-weight: bold; 
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    top: 97%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3;
+    font-style: black;
+    border: none;
     
-    
+}
+.fundo button a{
+    text-decoration: none; 
+    color: black;
+}
+.fundo button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.portals {
+    font-family: var(--default-font-family);
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    gap: 100px;
+    bottom: 230px;
+}
+.portal {
+    text-align: center;
+    width: 100px;
+    height: auto;
+}
+.portal img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.portal p {
+    font-size: 1.1em;
+    color: black; 
+}
+
+.linha-vermelha{
+    width: 100px;
+    height: 7px;
+    background-color: var(--third-color);
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.linha{
+    margin-top: 80px;
+    border-top: 0.5px solid #6C6464;
+    width: 90%;
+    margin-left: 2%
 }
