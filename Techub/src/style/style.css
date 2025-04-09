@@ -2,8 +2,7 @@
 
 body{
     width: 100%;
-    height: 200vh;
-
+    min-height: 150vh;
 }
 header{
     width: 100%;
@@ -100,18 +99,18 @@ header{
 }
 main{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     
 }
 .fundo{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
-.fundo .ondas{
+.ondas{
     width: 100%;
-  
+    height: auto;
 }
-.fundo .pessoas{
+.pessoas{
     position: absolute;
     width: 500px;
     right: 8%;
@@ -165,7 +164,7 @@ main{
     display: flex;
     justify-content: center; 
     gap: 100px;
-    bottom: 230px;
+    translate: 0 -10vh;
 }
 .portal {
     text-align: center;
@@ -191,8 +190,141 @@ main{
     border-radius: 20px;
 }
 .linha{
-    margin-top: 80px;
+    position: absolute;
     border-top: 0.5px solid #6C6464;
     width: 90%;
-    margin-left: 2%
+    margin-left: 5%;
+    translate: 0 0;
+}
+.sobre-nos{
+    width: 100%;
+    height: auto;
+    translate: 0 0;
+}
+.titulo {
+    font-family: var(--default-font-family);
+    font-size: 27px;
+    border-left: 5px solid var(--third-color); 
+    padding-left: 15px;
+    translate: 0 15vh;
+    margin-left: 10%;
+}
+.sobre-nos p{
+    width: 70vh;
+    font-family: var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 12%;
+    line-height: 1.8;
+    translate: 0 25vh;
+    text-indent: 1em;
+}
+.sobre-nos img{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    translate: 130vh -70vh;
+}
+.linha2{
+    position: absolute;
+    border-top: 0.5px solid #6C6464;
+    width: 90%;
+    margin-left: 5%;
+    translate: 0 -70vh;
+}
+.nossas-especialidades{
+    width: 100%;
+    height: auto;
+}
+.especialidades{
+    font-family: var(--default-font-family);
+    font-size: 27px;
+    border-left: 5px solid var(--third-color); 
+    padding-left: 15px;
+    translate: 0 -56vh;
+    margin-left: 10%;
+}
+.nossas-especialidades p{
+    font-family: var(--default-font-family);
+    width: 100vh;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 12%;
+    line-height: 1.8;
+    text-indent: 1em;
+    translate: 0 -50vh;
+}
+.linha3{
+    position: absolute;
+    border-top: 0.5px solid #6C6464;
+    width: 90%;
+    margin-left: 5%;
+    translate: 0 -40vh;
+}
+.localizacao{
+    width: 100%;
+    height: auto;
+}
+.localizacao h1{
+    font-family: var(--default-font-family);
+    font-size: 27px;
+    border-left: 5px solid var(--third-color); 
+    padding-left: 15px;
+    translate: 0 -30vh;
+    margin-left: 10%;
+}
+.localizacao h2{
+    font-family: var(--default-font-family);
+    width: 90vh;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 12%;
+    line-height: 1.8;
+    translate: 0 -20vh;
+}
+.localizacao p{
+    font-family: var(--default-font-family);
+    width: 50vh;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 12%;
+    line-height: 1.8;
+    translate: 0 -15vh;
+    margin-bottom: 10px;
+}
+.horario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.horario button{
+    font-family: var(--default-font-family);
+    border: none;
+    border-radius: 5px;
+    width: 240px;
+    height: 40px;
+    padding-inline: 5px;
+    background-color: var(--primary-color);
+    color: var(--sixth-color);
+    cursor: pointer;
+    transition: 0.3;
+}
+.horario button:hover{
+    background-color: var(--secundary-color);
+    transform: scale(1.05);
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    font-family: var(--default-font-family);
+    translate: 0 50vh;
+    
+}
+.footer img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: -5px;
 }
